@@ -886,4 +886,81 @@ footer .links a:hover i {
   footer .links a i {
     font-size: 20px;
   }
+}
+@media screen and (max-width: 380px) {
+  .home {
+    padding: 0px 50px;
+    height: auto;
+    min-height: auto;
+  }
+  .home .home-info .left {
+    flex: 1;
+  }
+  .home .home-info .left h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .home .home-info .left p {
+    text-align: center;
+  }
+  .home .home-info .right img {
+    height: 175px;
+  }
+  .services h2 {
+    font-size: 30px;
+  }
+  .app .services-info .left h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .app .services-info .left p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .app .services-info .left button {
+    width: 175px;
+    height: 55px;
+    font-size: 18px;
+  }
+  .app .services-info .right img {
+    height: 195px;
+  }
+  .doctor .FindDoctor-info .left img {
+    height: 192px;
+  }
+  .doctor .FindDoctor-info .right h1 {
+    font-size: 23px;
+    line-height: 40px;
+  }
+  .doctor .FindDoctor-info .right .line {
+    margin: auto;
+  }
+  .doctor .FindDoctor-info .right p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .doctor .FindDoctor-info .right button {
+    width: 175px;
+    height: 55px;
+    font-size: 18px;
+  }
+  footer img {
+    width: 180px;
+  }
+  footer p {
+    font-size: 12px;
+  }
+  footer p a {
+    font-size: 13px;
+  }
+  footer .links {
+    padding-bottom: 20px;
+  }
+  footer .links a {
+    width: 40px;
+    height: 40px;
+  }
+  footer .links a i {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=style.css.map */

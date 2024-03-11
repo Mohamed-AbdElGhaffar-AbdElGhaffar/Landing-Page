@@ -1074,3 +1074,106 @@ footer{
         }
     }
 }
+@media screen and (max-width: 380px){
+    .home{
+        padding: 0px 50px;
+        height: auto;
+        min-height: auto;
+        .home-info{
+            .left{
+                flex: 1;
+    
+                h1{
+                    font-size: 28px;
+                    line-height: 40px;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+            .right{
+                img{
+                    height: 175px;
+                }
+            }
+        }
+    }
+    .services{
+        
+        h2{
+            font-size: 30px;
+        }
+    }
+    .app{
+        .services-info{
+            .left{
+                h1{
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 22px;
+                }
+                button{
+                    width: 175px;
+                    height: 55px;
+                    font-size: 18px;
+                }
+            }
+            .right{
+                img{
+                    height: 195px;
+                }
+            }
+        }
+    }
+    .doctor{
+        .FindDoctor-info{
+            .left{
+                img{
+                    height: 192px;
+                }
+            }
+            .right{
+                h1{
+                    font-size: 23px;
+                    line-height: 40px;
+                }
+                .line{
+                    margin: auto;
+                }
+                p{
+                    font-size: 14px;
+                    line-height: 23px;
+                }
+                button{
+                    width: 175px;
+                    height: 55px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    footer{
+        img{
+            width: 180px;
+        }
+        p{
+            font-size: 12px;
+            a{
+                font-size: 13px;
+            }
+        }
+        .links{
+            padding-bottom: 20px;
+            a{
+                width: 40px;
+                height: 40px;
+                i{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
